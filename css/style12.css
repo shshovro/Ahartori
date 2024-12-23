@@ -1,0 +1,145 @@
+
+/* Layout */
+.container789 {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 20px;
+    max-width: 1280px;
+    width: 100%;
+    margin-left: 80px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+/* Card Styles */
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+ 
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.card-actions {
+    text-align: right;
+}
+
+.btn {
+    background-color: #38b2ac; /* Teal color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #319795; /* Darker teal on hover */
+}
+
+/* Booked Items Section */
+.booked-section {
+    border: 1px solid #dedede;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-left: 50px;
+}
+
+.booked-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.booked-section p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.booked-section .btn {
+    margin-top: 20px;
+    width: 100%;
+}
+
+
+/*container12*/
+
+.container12 {
+    max-width: 1400px;
+	font-family: sans-serif;
+	margin-top: 20;
+    margin-left: -5px;
+}
+
+
+.form-section h2 {
+	font-size:20px;
+	color:#707070;
+	font-weight: 700;
+	margin: 0;
+	line-height: 1.5;
+}
+.form-section form {
+	margin-top: 20px;
+}
+.form-section form .form-group {
+	margin-top: 40px;
+	font-family: sans-serif;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+    margin-right: 40px;
+}
+
+.form-section form .form-group input {
+	width: 48%;
+	padding: 10px;
+	font-size: 16px;
+	border: none;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+
+.form-section form button {
+	margin-top: 25px;
+	background-color: #10997f;
+	color: #ffffff;
+	padding: 15px 30px;
+	border: none;
+	font-size: 16px;
+	cursor: pointer;
+}

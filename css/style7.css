@@ -1,0 +1,80 @@
+
+  .container12 {
+    width: 100%;
+    max-width: 1600px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .deals-wrapper {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .deals {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .deal {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+    flex: 0 0 auto;
+    width: 250px;
+    position: relative;
+  }
+  
+  .deal img {
+    width: 100%;
+    border-radius: 10px;
+    max-height: fit-content;
+    white-space: nowrap;
+  }
+  
+
+  
+  /*  animation to .deals */
+  #deals {
+    animation: slide 24s infinite; /* 24s = 8 deals x 3s per deal */
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    12.5% {
+      transform: translateX(-250px); /* move to second deal */
+    }
+    25% {
+      transform: translateX(-500px); /* move to third deal */
+    }
+    37.5% {
+      transform: translateX(-750px); /* move to fourth deal */
+    }
+
+    /*
+     50% {
+      transform: translateX(-1000px);
+    }
+    62.5% {
+      transform: translateX(-1250px); 
+    }
+    75% {
+      transform: translateX(-1500px); 
+    }
+    87.5% {
+      transform: translateX(-1750px); 
+    }
+    100% {
+      transform: translateX(0);
+    } 
+
+    */
+  }
+   
+  

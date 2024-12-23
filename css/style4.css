@@ -1,0 +1,207 @@
+
+body {
+    font-family: Arial, sans-serif;
+	align-items: left;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+	justify-items: center;
+}
+ 
+h1 {
+	font-size: 2em;
+	color: #333;
+    margin: 60px;
+}
+.container7 {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 50px;
+}
+.card {
+	border: 1px solid #e0e0e0;
+	border-radius: 10px;
+	overflow: hidden;
+	width: 100%;
+	max-width: 300px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	position: relative;
+	text-decoration: none;
+	color: inherit;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+}
+
+.card-content {
+	padding: 15px;
+}
+
+.card-content h2 {
+	font-size: 1.2em;
+	margin: 0;
+	color: #333;
+}
+.card-content p {
+	margin: 0px 0;
+	color: #777;
+}
+.card-content .rating {
+	color: #ff9800;
+}
+.card-content .info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 10px;
+}
+.card-content .info span {
+	display: flex;
+	align-items: center;
+	color: #777;
+}
+.card-content .info span i {
+	margin-right: 5px;
+}
+.badge {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	background-color: #10997f;
+	color: #fff;
+	padding: 5px 10px;
+	border-radius: 5px;
+	font-size: 0.9em;
+}
+.badge.secondary {
+	top: 40px;
+	background-color: #ff9800;
+}
+.new-badge {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	background-color: #ff4081;
+	color: #fff;
+	padding: 5px 10px;
+	border-radius: 5px;
+	font-size: 0.9em;
+}
+
+.py-2 {
+	padding-top: 0.9rem;
+	padding-bottom: 0.9rem;
+}
+
+.bg-red-50 {
+	background-color: #f7a935;
+}
+
+.text-center {
+	text-align: center;
+}
+.text-red-600 {
+	color: #ffffff;
+}
+
+
+
+
+
+/*container11*/
+
+.container11 {
+	
+	display: flex;
+	width: 80%;
+	max-width: 1200px;
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 190px;
+	font-family: sans-serif;
+	margin-top: -40;
+	margin-bottom: 50px;
+}
+.form-section, .info-section {
+	flex: 1;
+	padding: 20px;
+}
+.form-section {
+	border-right: 1px solid #e0e0e0;
+}
+.form-section h1 {
+	font-size:40px;
+	color: #000;
+	font-weight: 700;
+	margin: 0;
+	line-height: 1.5;
+}
+.form-section form {
+	margin-top: 20px;
+}
+.form-section form .form-group {
+	margin-top: 40px;
+	font-family: sans-serif;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.form-section form .form-group input {
+	width: 48%;
+	padding: 10px;
+	font-size: 16px;
+	border: none;
+	border-bottom: 1px solid #e0e0e0;
+}
+.form-section form .form-group input:focus {
+	outline: none;
+	border-bottom: 1px solid #000;
+}
+.form-section form textarea {
+	width: 100%;
+	padding: 10px;
+	font-size: 16px;
+	border: none;
+	border-bottom: 1px solid #e0e0e0;
+	resize: none;
+	height: 100px;
+}
+.form-section form textarea:focus {
+	outline: none;
+	border-bottom: 1px solid #000;
+}
+.form-section form button {
+	margin-top: 25px;
+	background-color: #10997f;
+	color: #ffffff;
+	padding: 15px 30px;
+	border: none;
+	font-size: 16px;
+	cursor: pointer;
+}
+.info-section h2 {
+	margin: 120px 0;
+	font-size: 32px;
+	font-weight: 600;
+	margin-left: 40px;
+	
+}
+.info-section p {
+	text-align: left;
+	font-size: 16px;
+	margin: -60px 0;
+	margin-left: 40px;
+}
+.info-section a {
+	color: #10997f;
+	text-decoration: none;
+	font-weight: 700;
+}

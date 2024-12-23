@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style12.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <title>Food Menu</title>
+   
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+        
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="images/logo-01.png" alt="">
+                </div>
+                <a></a>
+
+                <a href="contact.html">Contact</a>
+              
+                <div class="dropdown">
+                    <button class="dropbtn">Profile
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="signin.html">Sign In</a>
+                      <a href="signup.html">Sign Up</a>
+                    </div>
+                  </div> 
+                  <div class="dropdown2">
+                    <button class="dropbtn2">Service
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content2">
+                      <a href="service.html">Programmes</a>
+                      <a href="chefs.html">Our Chefs</a>
+                    </div>
+                </div> 
+                <a href= index2.html> Home </a>
+                <a href= about.html> About Us  </a>
+
+            </nav>
+        </div>
+        <div class="container789"> 
+            <!-- Menu Section -->
+            <div class="menu-grid">
+                <!-- Card 1 -->
+                <div class="card">
+                    <img src="/images/Bangaliana Bhoj/beef_kolija.jpg" alt="Beef Koliza">
+                    <div class="card-body">
+                        <h2 class="card-title">Beef Koliza</h2>
+                        <p>TK: 350</p>
+                        <div class="card-actions">
+                            <button class="btn" onclick="addToBookedItems(this)">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="card">
+                    <img src="/images/Bangaliana Bhoj/chicken.jpg" alt="Chicken Curry">
+                    <div class="card-body">
+                        <h2 class="card-title">Chicken Curry</h2>
+                        <p>TK: 250</p>
+                        <div class="card-actions">
+                            <button class="btn" onclick="addToBookedItems(this)">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="card">
+                    <img src="/images/Bangaliana Bhoj/chitaruti_duck.jpg" alt="Ruti with Duck">
+                    <div class="card-body">
+                        <h2 class="card-title">Ruti with Duck</h2>
+                        <p>TK: 450</p>
+                        <div class="card-actions">
+                            <button class="btn" onclick="addToBookedItems(this)">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 4 -->
+                <div class="card">
+                    <img src="/images/Bangaliana Bhoj/beef_kalabhuna.jpg" alt="Beef Kalabhuna">
+                    <div class="card-body">
+                        <h2 class="card-title">Beef Kalabhuna</h2>
+                        <p>TK: 300</p>
+                        <div class="card-actions">
+                            <button class="btn" onclick="addToBookedItems(this)">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- yourItems Section -->
+            <div class="booked-section">
+                <h2>Your Items</h2>
+                <div id="bookedItemsContainer"></div>
+                <p id="totalPrice">Total: TK 0</p>
+                <button class="btn" onclick="window.location.href='payment.html'">Review payment and address</button>
+
+            </div>
+        </div>
+
+        <script src="js/scrpt2.js"></script>
+	
+</body>
+
+</html>

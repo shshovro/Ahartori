@@ -1,0 +1,143 @@
+/*new chefs Page testimonial*/ 
+
+.container43 {
+    padding: 80px;
+    position: relative;
+    margin: 60px;
+    background-color: #fff6f0;
+    border-radius: 30px;
+  }
+  
+ 
+  h1 {
+    padding-left: 550px;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .underline {
+    width: 50px;
+    height: 4px;
+    background-color: #ff6600;
+    margin-left: 630px;
+  
+  }
+  
+  
+  h2 {
+    padding-left: 575px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+  
+  p {
+    
+    font-size: 16px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+  }
+  
+  .quote-icon {
+    padding-left: 630px;
+    font-size: 24px;
+    color: #10997f;
+    margin-bottom: 50px;
+  }
+  
+
+  /*footer*/
+
+  footer {
+	background-color: #10997f;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+			
+}
+footer a {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	margin: 0 5px;
+
+}
+
+footer p {
+	margin: 5px 0;
+	line-height: 1.5;
+	font-size: 12px;
+    color: white;
+    padding-left: 320px;
+}
+
+
+  /*chefs card*/
+
+.chefs {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    margin: 55px;
+}
+
+.card {
+   
+    background-color: #10997f;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            padding: 20px; 
+            margin-bottom: 100px;
+  }
+
+.card img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.card h3 {
+    margin: 10px 0 5px;
+    font-size: 18px;
+    color:#ffffff;
+}
+.card p {
+    margin: 0;
+    font-size: 14px;
+    color:#fbfbfb;
+}
+
+.header3 {
+   
+    margin: 0px 120px;
+    margin-top: 100px;
+
+}
+.header3 h1 {
+  font-family: Helvetica;
+    font-size: 36px;
+    font-weight: bold;
+    margin-left: -40px;
+   
+ 
+}
+.header3 hr {
+    width: 50px;
+    border: 2px solid #ff9500;
+    margin: 10px auto;
+    margin-bottom: 100px;
+    padding-left: -5px;
+}
+
+
+

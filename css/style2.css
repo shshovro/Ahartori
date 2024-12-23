@@ -1,0 +1,96 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #ffffff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 300px;
+
+}
+.container {
+	display: flex;
+	
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.left {
+	background-size: cover;
+	width: 50%;
+	padding: 0px;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.right {
+	background-color: #333333;
+	width: 50%;
+	padding: 40px;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.right h2 {
+	margin: 0 0 20px 0;
+	font-size: 1.5em;
+}
+.right input[type="text"], .right input[type="password"] {
+	width: 100%;
+	padding: 10px;
+	margin: 10px 0;
+	border: none;
+	border-radius: 5px;
+}
+.right input[type="checkbox"] {
+	margin-right: 10px;
+}
+.right .checkbox-label {
+	display: flex;
+	align-items: center;
+}
+
+.right .login-btn {
+	padding: 100px;
+	background-color: #10997f;
+	align-items:  center;
+	color: white;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	text-decoration: none;
+	cursor: pointer;
+	margin-top: 20px;
+}
+
+.right .forgot-password {
+	color: #10997f;
+	text-align: right;
+	margin-top: 10px;
+	text-decoration: none;
+}
+.right .social-login {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 20px;
+}
+.right .social-login a {
+	color: white;
+	font-size: 1.5em;
+	text-decoration: none;
+}
+
+.social-login a:hover {
+    color: #fea500; /* Change the icon color on hover */
+}
+.right .signup {
+	text-align: center;
+	margin-top: 20px;
+}
+.right .signup a {
+	color: #10997f;
+	text-decoration: none;
+}
+
